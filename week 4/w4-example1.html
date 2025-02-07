@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4</title>
+</head>
+<body>
+    <h1>Week 4: HTML Table</h1>
+    
+    <table border="1">
+        <!--caption will always be at the top of the table no matter the placement-->
+       <caption>Students List (INFT12060)</caption>
+       <thead style="background-color: blue;">
+       <tr>
+            <th>NO</th>
+            <th>Name</th>
+            <th>Program</th>
+        </tr>
+        </thead>
+
+        <tbody style="background-color: yellow;">
+        <tr>
+            <td>1</td>
+            <td>Sam</td>
+            <td rowspan="2">IT</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Tom</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Mia</td>
+            <td>Programming</td>
+        </tr>
+        </tbody>
+
+        <tfoot style="background-color: green;">
+            <tr>
+                <td colspan="3">Rebecca</td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td>t1</td>
+                            <td>t2</td>
+                        </tr>
+                        <tr>
+                            <td>t3</td>
+                            <td>t4</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+</html>
